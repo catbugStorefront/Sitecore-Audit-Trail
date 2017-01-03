@@ -34,6 +34,7 @@
                     <asp:TableHeaderCell>Who?</asp:TableHeaderCell>
                     <asp:TableHeaderCell>When?</asp:TableHeaderCell>
                     <asp:TableHeaderCell>ID</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Path</asp:TableHeaderCell>
                     <asp:TableHeaderCell>Language</asp:TableHeaderCell>
                     <asp:TableHeaderCell>Version</asp:TableHeaderCell>
 

@@ -72,6 +72,11 @@ namespace SC7.Web.Tools.AuditTrail
                             SCBasics.AuditTrail.Utils.SourceTextType.Text,
                             aLog.SCItemPath);
 
+                        //Path
+                        SCBasics.AuditTrail.Utils.UIControlUtil.AddTableCell(tableRow,
+                            aLog.SCItemPath,
+                            SCBasics.AuditTrail.Utils.SourceTextType.Text);
+
                         //ItemLanguage
                         SCBasics.AuditTrail.Utils.UIControlUtil.AddTableCell(tableRow,
                             aLog.SCLanguage,
